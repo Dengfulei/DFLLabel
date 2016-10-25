@@ -1,0 +1,527 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		61EB7BAE1D2B5BB600500351 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 61EB7BAD1D2B5BB600500351 /* main.m */; };
+		61EB7BB11D2B5BB600500351 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 61EB7BB01D2B5BB600500351 /* AppDelegate.m */; };
+		61EB7BB41D2B5BB600500351 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61EB7BB31D2B5BB600500351 /* ViewController.m */; };
+		61EB7BB71D2B5BB600500351 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61EB7BB51D2B5BB600500351 /* Main.storyboard */; };
+		61EB7BB91D2B5BB600500351 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61EB7BB81D2B5BB600500351 /* Assets.xcassets */; };
+		61EB7BBC1D2B5BB600500351 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61EB7BBA1D2B5BB600500351 /* LaunchScreen.storyboard */; };
+		61EB7BC71D2B5BB600500351 /* DFLLabelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 61EB7BC61D2B5BB600500351 /* DFLLabelTests.m */; };
+		61EB7BD21D2B5BB600500351 /* DFLLabelUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 61EB7BD11D2B5BB600500351 /* DFLLabelUITests.m */; };
+		61EB7BE11D2B5BD900500351 /* DFLLabelView.m in Sources */ = {isa = PBXBuildFile; fileRef = 61EB7BE01D2B5BD900500351 /* DFLLabelView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		61EB7BC31D2B5BB600500351 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 61EB7BA11D2B5BB600500351 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 61EB7BA81D2B5BB600500351;
+			remoteInfo = DFLLabel;
+		};
+		61EB7BCE1D2B5BB600500351 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 61EB7BA11D2B5BB600500351 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 61EB7BA81D2B5BB600500351;
+			remoteInfo = DFLLabel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		61EB7BA91D2B5BB600500351 /* DFLLabel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DFLLabel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		61EB7BAD1D2B5BB600500351 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		61EB7BAF1D2B5BB600500351 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		61EB7BB01D2B5BB600500351 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		61EB7BB21D2B5BB600500351 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		61EB7BB31D2B5BB600500351 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		61EB7BB61D2B5BB600500351 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		61EB7BB81D2B5BB600500351 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		61EB7BBB1D2B5BB600500351 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		61EB7BBD1D2B5BB600500351 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61EB7BC21D2B5BB600500351 /* DFLLabelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DFLLabelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		61EB7BC61D2B5BB600500351 /* DFLLabelTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DFLLabelTests.m; sourceTree = "<group>"; };
+		61EB7BC81D2B5BB600500351 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61EB7BCD1D2B5BB600500351 /* DFLLabelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DFLLabelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		61EB7BD11D2B5BB600500351 /* DFLLabelUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DFLLabelUITests.m; sourceTree = "<group>"; };
+		61EB7BD31D2B5BB600500351 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61EB7BDF1D2B5BD900500351 /* DFLLabelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFLLabelView.h; sourceTree = "<group>"; };
+		61EB7BE01D2B5BD900500351 /* DFLLabelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFLLabelView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		61EB7BA61D2B5BB600500351 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61EB7BBF1D2B5BB600500351 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61EB7BCA1D2B5BB600500351 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		61EB7BA01D2B5BB600500351 = {
+			isa = PBXGroup;
+			children = (
+				61EB7BAB1D2B5BB600500351 /* DFLLabel */,
+				61EB7BC51D2B5BB600500351 /* DFLLabelTests */,
+				61EB7BD01D2B5BB600500351 /* DFLLabelUITests */,
+				61EB7BAA1D2B5BB600500351 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		61EB7BAA1D2B5BB600500351 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				61EB7BA91D2B5BB600500351 /* DFLLabel.app */,
+				61EB7BC21D2B5BB600500351 /* DFLLabelTests.xctest */,
+				61EB7BCD1D2B5BB600500351 /* DFLLabelUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		61EB7BAB1D2B5BB600500351 /* DFLLabel */ = {
+			isa = PBXGroup;
+			children = (
+				61EB7BAF1D2B5BB600500351 /* AppDelegate.h */,
+				61EB7BB01D2B5BB600500351 /* AppDelegate.m */,
+				61EB7BB21D2B5BB600500351 /* ViewController.h */,
+				61EB7BB31D2B5BB600500351 /* ViewController.m */,
+				61EB7BDF1D2B5BD900500351 /* DFLLabelView.h */,
+				61EB7BE01D2B5BD900500351 /* DFLLabelView.m */,
+				61EB7BB51D2B5BB600500351 /* Main.storyboard */,
+				61EB7BB81D2B5BB600500351 /* Assets.xcassets */,
+				61EB7BBA1D2B5BB600500351 /* LaunchScreen.storyboard */,
+				61EB7BBD1D2B5BB600500351 /* Info.plist */,
+				61EB7BAC1D2B5BB600500351 /* Supporting Files */,
+			);
+			path = DFLLabel;
+			sourceTree = "<group>";
+		};
+		61EB7BAC1D2B5BB600500351 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				61EB7BAD1D2B5BB600500351 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		61EB7BC51D2B5BB600500351 /* DFLLabelTests */ = {
+			isa = PBXGroup;
+			children = (
+				61EB7BC61D2B5BB600500351 /* DFLLabelTests.m */,
+				61EB7BC81D2B5BB600500351 /* Info.plist */,
+			);
+			path = DFLLabelTests;
+			sourceTree = "<group>";
+		};
+		61EB7BD01D2B5BB600500351 /* DFLLabelUITests */ = {
+			isa = PBXGroup;
+			children = (
+				61EB7BD11D2B5BB600500351 /* DFLLabelUITests.m */,
+				61EB7BD31D2B5BB600500351 /* Info.plist */,
+			);
+			path = DFLLabelUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		61EB7BA81D2B5BB600500351 /* DFLLabel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61EB7BD61D2B5BB600500351 /* Build configuration list for PBXNativeTarget "DFLLabel" */;
+			buildPhases = (
+				61EB7BA51D2B5BB600500351 /* Sources */,
+				61EB7BA61D2B5BB600500351 /* Frameworks */,
+				61EB7BA71D2B5BB600500351 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DFLLabel;
+			productName = DFLLabel;
+			productReference = 61EB7BA91D2B5BB600500351 /* DFLLabel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		61EB7BC11D2B5BB600500351 /* DFLLabelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61EB7BD91D2B5BB600500351 /* Build configuration list for PBXNativeTarget "DFLLabelTests" */;
+			buildPhases = (
+				61EB7BBE1D2B5BB600500351 /* Sources */,
+				61EB7BBF1D2B5BB600500351 /* Frameworks */,
+				61EB7BC01D2B5BB600500351 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				61EB7BC41D2B5BB600500351 /* PBXTargetDependency */,
+			);
+			name = DFLLabelTests;
+			productName = DFLLabelTests;
+			productReference = 61EB7BC21D2B5BB600500351 /* DFLLabelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		61EB7BCC1D2B5BB600500351 /* DFLLabelUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61EB7BDC1D2B5BB600500351 /* Build configuration list for PBXNativeTarget "DFLLabelUITests" */;
+			buildPhases = (
+				61EB7BC91D2B5BB600500351 /* Sources */,
+				61EB7BCA1D2B5BB600500351 /* Frameworks */,
+				61EB7BCB1D2B5BB600500351 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				61EB7BCF1D2B5BB600500351 /* PBXTargetDependency */,
+			);
+			name = DFLLabelUITests;
+			productName = DFLLabelUITests;
+			productReference = 61EB7BCD1D2B5BB600500351 /* DFLLabelUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		61EB7BA11D2B5BB600500351 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = DFL;
+				TargetAttributes = {
+					61EB7BA81D2B5BB600500351 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					61EB7BC11D2B5BB600500351 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 61EB7BA81D2B5BB600500351;
+					};
+					61EB7BCC1D2B5BB600500351 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 61EB7BA81D2B5BB600500351;
+					};
+				};
+			};
+			buildConfigurationList = 61EB7BA41D2B5BB600500351 /* Build configuration list for PBXProject "DFLLabel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 61EB7BA01D2B5BB600500351;
+			productRefGroup = 61EB7BAA1D2B5BB600500351 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				61EB7BA81D2B5BB600500351 /* DFLLabel */,
+				61EB7BC11D2B5BB600500351 /* DFLLabelTests */,
+				61EB7BCC1D2B5BB600500351 /* DFLLabelUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		61EB7BA71D2B5BB600500351 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61EB7BBC1D2B5BB600500351 /* LaunchScreen.storyboard in Resources */,
+				61EB7BB91D2B5BB600500351 /* Assets.xcassets in Resources */,
+				61EB7BB71D2B5BB600500351 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61EB7BC01D2B5BB600500351 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61EB7BCB1D2B5BB600500351 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		61EB7BA51D2B5BB600500351 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61EB7BB41D2B5BB600500351 /* ViewController.m in Sources */,
+				61EB7BB11D2B5BB600500351 /* AppDelegate.m in Sources */,
+				61EB7BE11D2B5BD900500351 /* DFLLabelView.m in Sources */,
+				61EB7BAE1D2B5BB600500351 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61EB7BBE1D2B5BB600500351 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61EB7BC71D2B5BB600500351 /* DFLLabelTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61EB7BC91D2B5BB600500351 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61EB7BD21D2B5BB600500351 /* DFLLabelUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		61EB7BC41D2B5BB600500351 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 61EB7BA81D2B5BB600500351 /* DFLLabel */;
+			targetProxy = 61EB7BC31D2B5BB600500351 /* PBXContainerItemProxy */;
+		};
+		61EB7BCF1D2B5BB600500351 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 61EB7BA81D2B5BB600500351 /* DFLLabel */;
+			targetProxy = 61EB7BCE1D2B5BB600500351 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		61EB7BB51D2B5BB600500351 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				61EB7BB61D2B5BB600500351 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		61EB7BBA1D2B5BB600500351 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				61EB7BBB1D2B5BB600500351 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		61EB7BD41D2B5BB600500351 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		61EB7BD51D2B5BB600500351 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		61EB7BD71D2B5BB600500351 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DFLLabel/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.020leader.ylpay.DFLLabel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		61EB7BD81D2B5BB600500351 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DFLLabel/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.020leader.ylpay.DFLLabel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		61EB7BDA1D2B5BB600500351 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DFLLabelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.020leader.ylpay.DFLLabelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DFLLabel.app/DFLLabel";
+			};
+			name = Debug;
+		};
+		61EB7BDB1D2B5BB600500351 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DFLLabelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.020leader.ylpay.DFLLabelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DFLLabel.app/DFLLabel";
+			};
+			name = Release;
+		};
+		61EB7BDD1D2B5BB600500351 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DFLLabelUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.020leader.ylpay.DFLLabelUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DFLLabel;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		61EB7BDE1D2B5BB600500351 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DFLLabelUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.020leader.ylpay.DFLLabelUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DFLLabel;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		61EB7BA41D2B5BB600500351 /* Build configuration list for PBXProject "DFLLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61EB7BD41D2B5BB600500351 /* Debug */,
+				61EB7BD51D2B5BB600500351 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61EB7BD61D2B5BB600500351 /* Build configuration list for PBXNativeTarget "DFLLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61EB7BD71D2B5BB600500351 /* Debug */,
+				61EB7BD81D2B5BB600500351 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		61EB7BD91D2B5BB600500351 /* Build configuration list for PBXNativeTarget "DFLLabelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61EB7BDA1D2B5BB600500351 /* Debug */,
+				61EB7BDB1D2B5BB600500351 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		61EB7BDC1D2B5BB600500351 /* Build configuration list for PBXNativeTarget "DFLLabelUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61EB7BDD1D2B5BB600500351 /* Debug */,
+				61EB7BDE1D2B5BB600500351 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 61EB7BA11D2B5BB600500351 /* Project object */;
+}
